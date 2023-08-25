@@ -37,6 +37,41 @@ html {
 }
 
 
+/* Mobile styles */
+body {
+    font-size: 16px;
+}
+
+.header {
+    font-size: 40px;
+    /* other properties */
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .header {
+        font-size: 50px;
+    }
+
+    /* Add other tablet-specific styles */
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+
+    .header {
+        font-size: 60px;
+    }
+
+    /* Add other desktop-specific styles */
+}
 
 /* navbar starts */
 .navbar {
