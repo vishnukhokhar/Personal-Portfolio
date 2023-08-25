@@ -37,41 +37,47 @@ html {
 }
 
 
-/* Mobile styles */
+/* Mobile Styles */
 body {
     font-size: 16px;
 }
 
-.header {
-    font-size: 40px;
-    /* other properties */
+.wrapper .heading {
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
-/* Tablet styles */
+/* Tablet Styles */
 @media screen and (min-width: 768px) {
     body {
         font-size: 18px;
     }
 
-    .header {
-        font-size: 50px;
+    .wrapper .heading {
+        font-size: 36px;
+        margin-top: 20%;
+        margin-left: 20%;
     }
 
-    /* Add other tablet-specific styles */
+    /* Add tablet-specific adjustments here */
 }
 
-/* Desktop styles */
+/* Desktop Styles */
 @media screen and (min-width: 1200px) {
     body {
         font-size: 20px;
     }
 
-    .header {
-        font-size: 60px;
+    .wrapper .heading {
+        font-size: 48px;
+        margin-top: 30%;
+        margin-left: 30%;
     }
 
-    /* Add other desktop-specific styles */
+    /* Add desktop-specific adjustments here */
 }
+
 
 /* navbar starts */
 .navbar {
